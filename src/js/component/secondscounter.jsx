@@ -23,7 +23,7 @@ const SecondsCounter = () => {
     return (
       <>
       <div className="container d-flex align-items-center">
-          <div><i className="fa-regular fa-clock"></i></div>
+          <div><i className="bg-warning fa-regular fa-clock"></i></div>
           <div className="counter">{display[0]}</div>
           <div className="counter">{display[1]}</div>
           <div className="counter">{display[2]}</div>
