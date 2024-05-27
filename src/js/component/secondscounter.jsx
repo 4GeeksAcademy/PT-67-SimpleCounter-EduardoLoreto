@@ -34,7 +34,7 @@ const SecondsCounter = () => {
       </div>
       <div className="buttons container py-2 d-flex align-items-center">
         <button onClick={() => setRunning(false)}>Stop</button>
-        <button onClick={() => setRunning(true)}>Resume</button>
+        <button onClick={() => setRunning(true)}>Start</button>
         <button onClick={() => setTime(0)}>Reset</button>       
       </div>
       </>

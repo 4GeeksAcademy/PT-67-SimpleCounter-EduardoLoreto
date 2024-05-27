@@ -92,9 +92,9 @@ class Timer extends Component {
             <input  className="input" ref={this.secondsInput} type="number" placeholder={'00'} name="seconds" onChange={this.inputHandler} />
          </div>
          <div className="buttons container py-2 d-flex align-items-center">
-            <button onClick={this.startTimer} className="start">start</button>
-            <button onClick={this.stopTimer}  className="stop">stop</button>
-            <button onClick={this.resetTimer}  className="reset">reset</button>
+            <button onClick={this.startTimer} className="start">Start</button>
+            <button onClick={this.stopTimer}  className="stop">Stop</button>
+            <button onClick={this.resetTimer}  className="reset">Reset</button>
          </div>
          <h2> Timer</h2>
          <div className="container d-flex justify-content-center">
